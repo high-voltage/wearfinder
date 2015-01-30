@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
 import os
-=======
->>>>>>> origin/master
 import time
 import json
 import string
