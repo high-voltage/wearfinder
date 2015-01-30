@@ -1,5 +1,5 @@
 CS:GO Item Wear Finder
-by h!gh voltage (http://steamcommunity.com/profiles/76561197982482557/)
+by high voltage (http://steamcommunity.com/profiles/76561197982482557/)
 
 
 This program simplifies the process of getting the wear float values of items.
@@ -27,7 +27,7 @@ Note: A Steamid64 always starts with '765'
 
 
 
-After entering the Steamid64, press ENTER to list all items, or insert a specific Item ID.
+After entering the Steamid64, press ENTER to list all items, or insert a specific Item ID (useful if a user has multiple items of the same type).
 
 
 Notes:
@@ -39,6 +39,6 @@ Preview Images:
 
 Paste a Steamid64 when running the exe: http://i.imgur.com/rqvI9ai.jpg
 
-List all items and enter its number: http://i.imgur.com/KYa0BLU.jpg
+List all items: http://i.imgur.com/wjwJt3o.jpg
 
 Get the wear value by a specific Item ID: http://i.imgur.com/lkMoQHM.jpg
