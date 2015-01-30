@@ -1,5 +1,5 @@
 CS:GO Item Wear Finder
-by h!gh voltage (http://steamcommunity.com/profiles/76561197982482557/)
+by high voltage (http://steamcommunity.com/profiles/76561197982482557/)
 
 
 This program simplifies the process of getting the wear float values of items.
