@@ -27,7 +27,7 @@ Note: A Steamid64 always starts with '765'
 
 
 
-After entering the Steamid64, press ENTER to list all items, or insert a specific Item ID.
+After entering the Steamid64, press ENTER to list all items, or insert a specific Item ID (useful if a user has multiple items of the same type).
 
 
 Notes:
