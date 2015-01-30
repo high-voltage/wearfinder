@@ -13,22 +13,34 @@ How To run this without launching the exe (if you don't want to):
 5. Press F5 to run the script
 
 
+
 Usage:
 
 The programm will ask you to enter the Steamid64 of the user's profile.
+
 To get it, go to steamidfinder.com and follow their instructions.
+
 Note: A Steamid64 always starts with '765'
 
+
+
 From now on, you can let the program collect every tradable item and get their wear value, or you can enter a specific Item ID.
+
 To get an Item ID, go to the user's inventory, click on an item, copy its link and paste it somewhere.
+
 Now copy the number after the last _ and paste it in the prompt.
 
+
+
 If you chose to enter 'no' in the prompt, the program will give you a list with every item and a number infront of it.
+
 In the next prompt, enter the number infront of the item name and you will receive the wear value.
 
 If you chose to enter a Item ID, the program will give you its wear value directly.
 
+
 Notes:
+
 The steam API Server is known to be very bad and often gives an empty response. Don't expect to have success every time... :(
 
 
