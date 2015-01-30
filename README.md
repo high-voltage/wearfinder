@@ -39,6 +39,6 @@ Preview Images:
 
 Paste a Steamid64 when running the exe: http://i.imgur.com/rqvI9ai.jpg
 
-List all items and enter its number: http://i.imgur.com/KYa0BLU.jpg
+List all items: http://i.imgur.com/wjwJt3o.jpg
 
 Get the wear value by a specific Item ID: http://i.imgur.com/lkMoQHM.jpg
