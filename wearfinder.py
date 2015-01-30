@@ -27,7 +27,6 @@ class User(object):
             self.get_api_contents()
             self.get_single_item(self.itemid)
         else:
-            self.readitems = 1
             self.get_public_contents()
             self.get_api_contents()
             self.get_items()
@@ -76,7 +75,7 @@ class User(object):
 
 
         except Exception, e:
-            print "Error getting items. Possible reasons: Profile is private, Backback is emtpy, Server is unresponsive."
+            print "Error getting items. Possible reasons: Profile is private, Backpack is emtpy, Server is unresponsive."
             print "Retrying..."
             return self.get_items()
 
@@ -154,8 +153,7 @@ def get_itemid(steamid):
         try:
             itemid = int(itemid)
             User(steamid, itemid)
-        except Exception, e:
-            print traceback.format_exc()
+        except:
             print "You entered an invalid Item ID. Please try again."
             return get_itemid(steamid)
 
