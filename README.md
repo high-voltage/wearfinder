@@ -11,6 +11,7 @@ How To run this without launching the exe (if you don't want to):
 3. Run IDLE (Python GUI)
 4. Press File > Open > browse to wearfinder.py and open it
 5. Enter your API Key in the script (ex. API_KEY = "4AK8793AJ23423KLS2347")
+    Obtain your API Key here: https://steamcommunity.com/dev/apikey
 6. Press F5 to run the script
 
 
