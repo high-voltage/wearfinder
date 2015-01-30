@@ -10,7 +10,8 @@ How To run this without launching the exe (if you don't want to):
 2. Install Python 2.7.8: https://www.python.org/downloads/release/python-278/
 3. Run IDLE (Python GUI)
 4. Press File > Open > browse to wearfinder.py and open it
-5. Press F5 to run the script
+5. Enter your API Key in the script (ex. API_KEY = "4AK8793AJ23423KLS2347")
+6. Press F5 to run the script
 
 
 
