@@ -180,4 +180,3 @@ def start():
     get_steamid()
 
 start()
-
