@@ -158,20 +158,25 @@ def get_itemid(steamid):
             return get_itemid(steamid)
 
 def start():
+    if not API_KEY:
+        print "API Key not defined. Get your api key here: https://steamcommunity.com/dev/apikey"
+        time.sleep(3)
+        return
     print " "
     print "-----------------------------------------------------"
     print "CS:GO ITEM WEAR-FINDER WRITTEN BY H!GH VOLTAGE"
     print "http://steamcommunity.com/profiles/76561197982482557/"
     print "-----------------------------------------------------"
     print " "
-    print "Wear Values:"
+    print "General Wear Values:"
     print "0.00 - 0.06 : Factory New"
     print "0.06 - 0.15 : Minimal Wear"
     print "0.15 - 0.37 : Field Tested"
     print "0.37 - 0.44 : Well-Worn"
     print "0.44 - 1.00 : Battle-Scarred"
     print " "
-    print " "
+    print "Note: For some items the minimum and maximum wear values are different"
+    print "Read them up here: http://i-am-fat.org/csgo-skins/#rifles"
     get_steamid()
 
 start()
