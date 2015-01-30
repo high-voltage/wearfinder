@@ -31,7 +31,11 @@ If you chose to enter a Item ID, the program will give you its wear value direct
 Notes:
 The steam API Server is known to be very bad and often gives an empty response. Don't expect to have success every time... :(
 
+
 Preview Images:
+
 Paste a Steamid64 when running the exe: http://i.imgur.com/rqvI9ai.jpg
+
 List all items and enter its number: http://i.imgur.com/KYa0BLU.jpg
+
 Get the wear value by a specific Item ID: http://i.imgur.com/lkMoQHM.jpg
