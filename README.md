@@ -4,7 +4,7 @@ by h!gh voltage (http://steamcommunity.com/profiles/76561197982482557/)
 
 This program simplifies the process of getting the wear float values of items.
 
-How To run this without lauching the exe (if you don't want to):
+How To run this without launching the exe (if you don't want to):
 
 1. Download wearfinder.py
 2. Install Python 2.7.8: https://www.python.org/downloads/release/python-278/
