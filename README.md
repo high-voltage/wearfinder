@@ -27,19 +27,7 @@ Note: A Steamid64 always starts with '765'
 
 
 
-From now on, you can let the program collect every tradable item and get their wear value, or you can enter a specific Item ID.
-
-To get an Item ID, go to the user's inventory, click on an item, copy its link and paste it somewhere.
-
-Now copy the number after the last _ and paste it in the prompt.
-
-
-
-If you chose to enter 'no' in the prompt, the program will give you a list with every item and a number infront of it.
-
-In the next prompt, enter the number infront of the item name and you will receive the wear value.
-
-If you chose to enter a specific Item ID, the program will give you its wear value directly.
+After entering the Steamid64, press ENTER to list all items, or insert a specific Item ID.
 
 
 Notes:
