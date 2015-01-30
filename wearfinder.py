@@ -52,6 +52,7 @@ class User(object):
             print " "
             print "Listing all items..."
             print " "
+            time.sleep(0.5)
             for item in self.public_contents['rgInventory']:
                 index = "%s_%s"%(self.public_contents['rgInventory'][item]['classid'], self.public_contents['rgInventory'][item]['instanceid'])
                 self.items[index] = {}
