@@ -39,7 +39,7 @@ If you chose to enter 'no' in the prompt, the program will give you a list with 
 
 In the next prompt, enter the number infront of the item name and you will receive the wear value.
 
-If you chose to enter a Item ID, the program will give you its wear value directly.
+If you chose to enter a specific Item ID, the program will give you its wear value directly.
 
 
 Notes:
