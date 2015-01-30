@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 import time
 import json
 import string
@@ -52,6 +53,8 @@ class User(object):
             print "Listing all items..."
             print " "
             time.sleep(0.5)
+            path = os.getcwd()
+            file = open(path + '\%s.txt'%self.steamid, 'w')
             for item in self.public_contents['rgInventory']:
                 index = "%s_%s"%(self.public_contents['rgInventory'][item]['classid'], self.public_contents['rgInventory'][item]['instanceid'])
                 self.items[index] = {}
@@ -68,7 +71,10 @@ class User(object):
                     id = self.items[item[0]]['id']
                     name = self.items[item[0]]['name']
                     wear = self.get_wear(id)
+                    file.write("%s\n%sID: %s Wear: %s\n\n"%(name, nametag, id, wear))
                     print "%s\n%sID: %s Wear: %s\n"%(name, nametag, id, wear)
+            file.close()
+            print "Log file created: %s\%s.txt"%(path, self.steamid)
 
             print " "
             self.next()
