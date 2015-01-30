@@ -74,8 +74,7 @@ class User(object):
             print " "
             self.next()
 
-
-        except Exception, e:
+        except:
             print "Error getting items. Possible reasons: Profile is private, Backpack is emtpy, Server is unresponsive."
             print "Retrying..."
             return self.get_items()
